@@ -1,0 +1,31 @@
+
+.tab {
+	margin-left: 40px;
+}
+ul {
+	margin: 0;
+}
+ul.dashed {
+	list-style-type: none;
+}
+ul.dashed > li {
+	text-indent: -5px;
+}
+ul.dashed > li:before {
+	content: "– ";
+	text-indent: -5px;
+}
+li {
+	margin: 10px 0;
+}
+h1, h3 {
+	color: #0b5394;
+}
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.w400 {
+	font-weight: 400;
+	margin: 40px;
+}
+
